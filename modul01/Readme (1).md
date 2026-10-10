@@ -4,11 +4,10 @@
 ### Data Praktikan
 | Keterangan | Isi |
 |------------|-----|
-| **Nama** | Moreno Maheswara Anggoro |
-| **NIM** | 108072500044 |
+| **Nama** | Zaidan Ahmad Haidar |
+| **NIM** | 108072500130 |
 | **Kelas** | IF-05-04 |
-| **Asisten Praktikum** | [Isi nama asisten] |
-| **Tanggal Praktikum** | [Isi tanggal praktikum] |
+| **Asisten Praktikum** |  Nuevalen Refitra Alswando  |
 
 ---
 
