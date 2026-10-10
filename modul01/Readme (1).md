@@ -47,7 +47,7 @@ $ make
 **Hasil:**
 Perintah `make` mengubah kode sumber C menjadi *image* `xinu.elf`. Setelah selesai, *image* tersebut otomatis disalin ke folder server TFTP (`/srv/tftp/xinu.boot`), sehingga bisa langsung diambil oleh Backend VM.
 
-![Terminal Compile Xinu](assets/dummy.png)
+![Terminal Compile Xinu](assets/make.png)
 
 *Gambar 1: Hasil kompilasi Xinu dengan `make` di Development-System VM.*
 
@@ -58,7 +58,7 @@ Berikutnya, **Backend VM** dinyalakan. Mesin ini tidak punya disk berisi sistem 
 3. File `xinu.boot` diunduh melalui TFTP.
 4. Xinu dimuat ke memori dan mulai berjalan.
 
-![Booting Backend VM](assets/dummy.png)
+![Booting Backend VM](assets/grub.png)
 
 *Gambar 2: Backend VM saat *boot* lewat jaringan (PXE) dan menampilkan GRUB.*
 
@@ -72,7 +72,7 @@ $ sudo minicom
 **Hasil:**
 Terminal kini tersambung ke konsol Xinu. Prompt yang semula `xinu@xinu-develop-end:$` berubah menjadi **`xsh$`**, tanda bahwa sesi sudah berada di dalam *Xinu Shell*.
 
-![Koneksi Minicom](assets/dummy.png)
+![Koneksi Minicom](assets/sudo.png)
 
 *Gambar 3: Minicom berhasil tersambung dan menampilkan prompt `xsh$`.*
 
@@ -83,7 +83,7 @@ Dari prompt `xsh$`, perintah diterima langsung oleh kernel Xinu, dan daftarnya t
 xsh$ help
 ```
 
-![Perintah Help Xinu](assets/dummy.png)
+![Perintah Help Xinu](assets/help.png)
 
 *Gambar 4: Daftar perintah bawaan Xinu yang ditampilkan oleh `help`.*
 
